@@ -18,7 +18,7 @@ const equals = () => {
 
 // * add backspace functionality
 const del = () => {
-  result.value = result.value.slice(0, -2);
+  result.value = result.value.slice(0, -1);
   console.log("DEL success");
 };
 
